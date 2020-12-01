@@ -1,6 +1,6 @@
 # MIPS-Multi-Cycle-Processor
 
-A 32-bit single cycle MIPS processor implemented using Verilog.
+A 32-bit multi-cycle MIPS processor implemented using Verilog.
 
 Instructions are read from a file named "memfile.dat". One test file is included.
 
