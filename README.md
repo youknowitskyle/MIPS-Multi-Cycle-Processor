@@ -1,4 +1,4 @@
-# MIPS-Multi-Cycle-Processor
+# MIPS Multi-Cycle Processor
 
 A 32-bit multi-cycle MIPS processor implemented using Verilog.
 
