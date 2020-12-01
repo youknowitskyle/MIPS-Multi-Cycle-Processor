@@ -1,6 +1,8 @@
 # MIPS Multi-Cycle Processor
 
-A 32-bit multi-cycle MIPS processor implemented using Verilog.
+A 32-bit multi-cycle MIPS processor implemented using Verilog. 
+
+The controller module is implemented as a finite state machine (FSM) that outputs control signals to the datapath which executes commands. This processor design improves on the single cycle processor design found [here](https://github.com/youknowitskyle/MIPS-Single-Cycle-Processor). For each instruction, the single cycle processor executes it in the time it takes to execute the slowest instruction. The multi-cycle processor mitigates this by splitting each instruction into different parts. Thus, the delay for each instruction is determined only by the slowest functional component.
 
 Instructions are read from a file named "memfile.dat". One test file is included.
 
