@@ -16,8 +16,6 @@ Instructions are read from a file named "memfile.dat". One test file is included
   beq
   addi
   j
-  ori
-  bne
 `
 
 ### Sample Test File (memfile.dat) in MIPS Assembly
